@@ -258,3 +258,89 @@ body {
 	top: -220px;
 }
 /* HERO END */
+
+/* OUR SERVISES START */
+.our-servise {
+	padding-top: 61px;
+	padding-bottom: 120px;
+}
+
+.our-servise__info {
+	max-width: 587px;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.our-servise__title {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1;
+}
+
+.our-servise__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.our-servise__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 40px;
+}
+
+.our-servise__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 37px 23px 30px;
+	border-radius: 34px;
+	max-width: 370px;
+	width: 100%;
+	border: 1px solid;
+	border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+	background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+	box-shadow: 0px 22px 18px 0px #0000000d;
+}
+
+.our-servise__item:hover {
+	transform: translateY(-10px);
+}
+
+.our-servise__img-wrapper {
+	width: 74px;
+	height: 74px;
+	background: linear-gradient(180deg, #8a7fd9 0%, #402f8f 100%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 19px;
+}
+
+.our-servise__heading {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 17px;
+}
+
+.our-servise__paragrph {
+	margin-bottom: 24px;
+}
+
+.our-servise__link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1, 6;
+	color: var(--white-color);
+	display: flex;
+	align-items: center;
+}
+/* OUR SERVISES END */
