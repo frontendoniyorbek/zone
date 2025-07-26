@@ -362,6 +362,8 @@ body {
 
 .every-project__img-wrapper {
 	display: flex;
+	max-width: 588px;
+	width: 100%;
 }
 
 .every-project__info {
@@ -393,5 +395,9 @@ body {
 	background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
 	color: var(--white-color);
 	cursor: pointer;
+}
+
+.every-project__container2 {
+	flex-direction: row-reverse;
 }
 /* EVERY-PROJECT END */
